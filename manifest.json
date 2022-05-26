@@ -2,7 +2,7 @@
     "description": "Lepas penat dengan yang cute-cute",
     "theme_color": "#23d4d9",
     "background_color": "#ff99c2",
-    "display": "fullscreen",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/?home=true",
     "name": "exacutee shop",
