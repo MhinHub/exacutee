@@ -1,15 +1,33 @@
 {
+    "display": "standalone",
+    "tabbed_mode": true,
+    "caption_controls_overlay": true,
+    "caption_controls_overlay_opacity": 0.8,
+    "caption_controls_overlay_color": "#000000",
+    "display_modifiers": {
+        "display_caption_controls": true,
+        "display_caption_controls_overlay": true
+
+    },
     "description": "Lepas penat dengan yang cute-cute",
     "theme_color": "#23d4d9",
     "background_color": "#ff99c2",
-    "display": "fullscreen",
     "scope": "/",
     "start_url": "/?home=true",
     "name": "exacutee shop",
     "short_name": "exacute",
     "orientation": "any",
-    "icons": [
+    "related_applications": [{
+            "platform": "instagram",
+            "url": "https://www.instagram.com/exacutee/"
+        },
         {
+            "platform": "Tiktok",
+            "url": "https://www.tiktok.com/exacutee/"
+        }
+    ],
+
+    "icons": [{
             "src": "/manifest/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
